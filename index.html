@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Map Quiz</title>
+<link rel="icon" href="icon.png">
+<style>
+:root { --sea: #8fd0ec; --card: #fffeeb; --ink: #5e3326; --muted: #9a6b5b; --line: #97513e; --link: #2f6f8f; }
+@media (prefers-color-scheme: dark) {
+  :root { --sea: #1c3a48; --card: #2a2420; --ink: #f3e7d8; --muted: #c9b2a2; --line: #c9876f; --link: #8fd0ec; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--sea); color: var(--ink);
+  font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+header img { width: 56px; height: 56px; border-radius: 14px; }
+header a { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 22px; }
+.card { background: var(--card); border: 3px solid var(--line); border-radius: 18px; padding: 22px 22px 8px; }
+h1 { margin: 0 0 6px; font-size: 28px; }
+h2 { margin: 26px 0 6px; font-size: 20px; }
+p, ul { margin: 0 0 12px; }
+a { color: var(--link); overflow-wrap: anywhere; }
+.muted { color: var(--muted); }
+nav { margin-top: 20px; display: flex; gap: 18px; flex-wrap: wrap; }
+nav a { color: var(--ink); font-weight: 600; }
+.hero { text-align: center; padding: 18px 0 14px; }
+.hero img { width: 160px; height: 160px; border-radius: 36px; }
+</style>
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><a href="index.html">World Map Quiz</a></header>
+<div class="card">
+<div class="hero"><img src="icon.png" alt="World Map Quiz icon"></div>
+<h1>World Map Quiz</h1>
+<p>A cozy geography quiz. Find countries, regions and cities on the map, collect a stamp for every
+quiz and fill your passport. In 15 languages.</p>
+<p class="muted">Coming to Google Play.</p>
+<h2>Contact</h2>
+<p>Andreas Fick Løjtnant Krusell<br><a href="mailto:grntxt@gmail.com">grntxt@gmail.com</a></p>
+</div>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></nav>
+</main>
+</body>
+</html>
